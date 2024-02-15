@@ -1,0 +1,16 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+
+ section div{
+    width: 25%;
+
+ }
+ div span{
+   font-size: 40px;
+   
+
+ }
+

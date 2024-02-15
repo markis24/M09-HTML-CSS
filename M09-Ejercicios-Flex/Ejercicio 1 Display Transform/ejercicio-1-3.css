@@ -1,0 +1,21 @@
+section{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 15px;
+   gap: 10px;
+}
+section div{
+   display: flex;
+   width: 20%;
+   padding: 25px;  
+   /* Para centrar el contenido del div tenemos que utilizar 
+   el justify content y align items*/
+   justify-content: center;
+   align-items: center;
+
+
+}
+div span{
+   font-size: 30px;
+}
+
