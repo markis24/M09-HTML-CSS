@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 40% 40%;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item-1{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column:1;
+  grid-row: 1 /span 2;
+  
+}
+.grid-item-2{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column: 2 /span 2;
+  grid-row:1;
+  
+}
+
+.grid-item-6{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column:1;
+  grid-row: 3 /span 2;
+  
+}
+
+</style>
+</head>
+<body>
+
+<h1>display: grid</h1>
+
+<p>Use display: grid; to make a block-level grid container:</p>
+
+<div class="grid-container">
+  <div class="grid-item-1">1</div>
+  <div class="grid-item-2">Contenido 1<br>
+  nihil fugiat reprehenderit
+                aspernatur sunt
+                quisquam in, inventore earum obcaecati quae ei
+                aspernatur sunt
+                facilis!</div>
+  <div class="grid-item">3</div>  
+  <div class="grid-item">  <div class="grid-item"> nihil fugiat reprehenderit
+                aspernatur sunt
+                quisquam in, inventore earum obcaecati quae eius quaerat! Architecto nihil officiis laboriosam odio.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur neque veniam doloremque, amet
+                odio
+                recusandae maiores aliquam ipsa esse quibusdam dolore eaque rerum nam velit fuga aperiam ullam? Quidem,
+                facilis! <div class="grid-item">4</div>
+</div>
+</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item-6">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>  
+
+</div>
+
+</body>
+</html>
+
+
