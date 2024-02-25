@@ -1,0 +1,24 @@
+section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 20px;
+
+}
+.el1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.el2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

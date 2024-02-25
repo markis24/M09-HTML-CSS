@@ -1,0 +1,42 @@
+span {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  font-size: 1.5em;
+  line-height: 3em;
+  text-align: center;
+  width: 3em;
+  display: block;
+}
+
+.el1 {
+  background-color: #93a603;
+}
+
+.el2 {
+  background-color: #0a89a6;
+}
+
+.el3 {
+  background-color: #c8e6c9;
+}
+
+.el4 {
+  background-color: #278c7a;
+}
+
+.el5 {
+  background-color: #212121;
+}
+.el6 {
+  background-color: #e31111;
+}
+.el7 {
+  background-color: #fd09ec;
+}
+.el8 {
+  background-color: #6f15ed;
+}
+
+.el9 {
+  background-color: #c7d40e;
+}
